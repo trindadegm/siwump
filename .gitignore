@@ -48,6 +48,9 @@
 *.idb
 *.pdb
 
+# From java
+*.class
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd

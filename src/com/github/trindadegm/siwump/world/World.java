@@ -21,25 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-package com.github.trindadegm.siwump;
+package com.github.trindadegm.siwump.world;
 
-class Cave
+public class World
 {
-  class CaveProperties
-  {
-    public boolean smell;
-    public boolean breeze;
-    public boolean shine;
-    public boolean exit;
-
-    public int x;
-    public int y;
-  }
-
-  private CaveProperties properties;
-
-  public Cave(CaveProperties givenProperties)
-  {
-    properties = givenProperties;
-  }
 }

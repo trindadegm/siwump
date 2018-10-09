@@ -23,10 +23,16 @@ SOFTWARE.
 */
 package com.github.trindadegm.siwump;
 
+import com.github.trindadegm.siwump.world.Cave;
+
 public class SIWumpMain
 {
   public static void main(String[] args)
   {
     System.out.println("Hello Wumpus! V0.1");
+
+    Cave cave = new Cave();
+
+    System.out.println(cave);
   }
 }
